@@ -1,0 +1,107 @@
+/* Your Name */
+/* CSS file by Your Name */
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: gray; 
+    color: #333; 
+}
+
+.image{
+    width: 200px;
+    height: 200px;
+}
+
+.section{
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 24px; 
+}
+
+table {
+    width: 85%;
+    margin: 0 auto;
+    border-collapse: separate; 
+    border-spacing: 5px; 
+    margin-bottom: 40px;
+}
+
+/* Set border for the entire table */
+table.border {
+    border: 2px solid black;
+}
+
+th, td {
+    border: 1px solid #000; 
+    padding: 8px;   
+}
+
+th {
+    background-color: #000; 
+    color: #FFF;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Specific styling for each course */
+td.ITEP206 {
+    background-color: #dd864a; 
+    color: #000; 
+}
+
+td.GEC108 {
+    background-color: #BF9169; 
+    color: #000;
+}
+
+td.PE4{
+    background-color: #D6B665; 
+    color: #000; 
+}
+
+td.ITEP204 {
+    background-color: #FF6961; 
+    color: #000; 
+}
+
+td.ITEP205 {
+    background-color: #9AD6AE;
+    color: #000; 
+}
+
+td.ITEL203 {
+    background-color: #9CB6D6; 
+    color: #000; 
+}
+
+td.ITEP207 {
+    background-color: #D490A8; 
+    color: #000;
+}
+
+/* Media query for print mode */
+@media print {
+    body {
+        background-color: #FFF;
+        color: #000;
+        font-family: "Times New Roman", serif;    
+    }
+
+    table, th, td {
+        border: 1px solid #000;
+        color: #000;
+        background-color: #FFF;
+    }
+}
+
+
+
+
+
+
+
+
